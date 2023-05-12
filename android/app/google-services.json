@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "223150059888",
+    "project_id": "learningsingin",
+    "storage_bucket": "learningsingin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223150059888:android:e9ab07a5a9572a0e331fb5",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223150059888-qjcmh4kk0oq4isoonsjb8l7ll87lqsoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy5_-ZJbHonwYX5jGnxaUdgml9IWX56ZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223150059888-qjcmh4kk0oq4isoonsjb8l7ll87lqsoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223150059888:android:6f5b7da2121ec81e331fb5",
+        "android_client_info": {
+          "package_name": "com.example.google_sign_in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223150059888-qjcmh4kk0oq4isoonsjb8l7ll87lqsoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy5_-ZJbHonwYX5jGnxaUdgml9IWX56ZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223150059888-qjcmh4kk0oq4isoonsjb8l7ll87lqsoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
