@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+import 'dash_board.dart';
 import 'home_screen.dart';
 
 class SignUpScreen extends StatefulWidget {
@@ -28,7 +29,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
       if (user != null) {
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => const HomeScreen()),
+          MaterialPageRoute(builder: (context) => const DashBoradScreen()),
         );
       }
     });
@@ -128,7 +129,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const HomeScreen()),
+        MaterialPageRoute(builder: (context) => const DashBoradScreen()),
       );
 
     } on FirebaseAuthException catch (e) {
